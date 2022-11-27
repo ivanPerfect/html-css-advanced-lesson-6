@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 1200px;
+    height: 600px;
+}
+.pulse p {
+    display: none;
+    width: 200px;
+    background-color: aqua;
+    margin-top: 25px;
+    margin-left: -80px;
+}
+.pulse a {
+    text-decoration: none;
+    color: black;
+}
+.pulse {
+    position: absolute;
+    left: 13%;
+    top: 40%;
+    margin:10px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 1s infinite;
+}
+.pulse:hover p {
+    display: block;
+}
+.pulse:hover {
+    animation: none;
+}
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204, 44, 44, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+@keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(204, 44, 44, 0.4);
+      box-shadow: 0 0 0 0 rgb(204, 44, 44);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+
+/* друга точка */
+.pulse2 p {
+    display: none;
+    width: 200px;
+    background-color: aqua;
+    margin-top: 25px;
+    margin-left: -80px;
+}
+.pulse2 a {
+    text-decoration: none;
+    color: black;
+}
+.pulse2 {
+    position: absolute;
+    left: 24%;
+    top: 24%;
+    margin:10px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 1s infinite;
+}
+.pulse2:hover p {
+    display: block;
+}
+.pulse2:hover {
+    animation: none;
+}
+/* точка 3 */
+.pulse3 p {
+    display: none;
+    width: 200px;
+    background-color: aqua;
+    margin-top: 25px;
+    margin-left: -80px;
+}
+.pulse3 a {
+    text-decoration: none;
+    color: black;
+}
+.pulse3 {
+    position: absolute;
+    left: 33%;
+    top: 11%;
+    margin:10px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 1s infinite;
+}
+.pulse3:hover p {
+    display: block;
+}
+.pulse3:hover {
+    animation: none;
+}
+/* точка 4 */
+.pulse4 p {
+    display: none;
+    width: 200px;
+    background-color: aqua;
+    margin-top: 25px;
+    margin-left: -80px;
+}
+.pulse4 a {
+    text-decoration: none;
+    color: black;
+}
+.pulse4 {
+    position: absolute;
+    left: 36%;
+    top: 31%;
+    margin:10px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 1s infinite;
+}
+.pulse4:hover p {
+    display: block;
+}
+.pulse4:hover {
+    animation: none;
+}
+/* 5 точка */
+.pulse5 p {
+    display: none;
+    width: 200px;
+    background-color: aqua;
+    margin-top: 25px;
+    margin-left: -80px;
+}
+.pulse5 a {
+    text-decoration: none;
+    color: black;
+}
+.pulse5 {
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    margin:10px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 1s infinite;
+}
+.pulse5:hover p {
+    display: block;
+}
+.pulse5:hover {
+    animation: none;
+}
